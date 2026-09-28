@@ -1,0 +1,40 @@
+# Publishes the Donis London 26 scores. Only fixtures.json and the passcode-locked
+# scorer key are ever published. The scorer key cannot edit this workflow (it has no
+# Workflows permission), and the validation rules are fetched from the main site, so a
+# bad or malicious save fails here and the last good scores stay live.
+name: Publish scores
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Validate against the site's rules
+        run: |
+          curl -fsSL "https://donis.shotclubhouse.com/assets/js/fixtures-model.js?cb=$GITHUB_SHA" -o /tmp/model.js
+          node -e "const M=require('/tmp/model.js');const d=JSON.parse(require('fs').readFileSync('fixtures.json','utf8'));const e=M.validate(d);if(e.length){console.error(e.join('\n'));process.exit(1)}console.log('fixtures ok')"
+          if [ -f scorer-key.json ]; then node -e "const k=JSON.parse(require('fs').readFileSync('scorer-key.json','utf8'));if(!k.ct||!k.iv||!k.salt||!k.iter)process.exit(1);console.log('key box ok')"; fi
+      - name: Assemble (scores and key box only)
+        run: |
+          mkdir _site
+          cp fixtures.json _site/
+          if [ -f scorer-key.json ]; then cp scorer-key.json _site/; fi
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: _site }
+      - id: deployment
+        uses: actions/deploy-pages@v4
