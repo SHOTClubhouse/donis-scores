@@ -2,7 +2,7 @@
   "_note": "Live scores for donis.shotclubhouse.com/london-26/games/. Edit at /london-26/score/ with the scorer passcode, not by hand. Every save is validated before it publishes.",
   "date": "2026-10-03",
   "updated": "11:10",
-  "rev": 3,
+  "rev": 4,
   "divisions": [
     {
       "id": "womens",
@@ -16,7 +16,7 @@
         },
         {
           "id": "WB",
-          "name": null
+          "name": "test"
         },
         {
           "id": "WC",
