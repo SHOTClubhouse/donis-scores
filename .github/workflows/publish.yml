@@ -11,9 +11,13 @@ permissions:
   contents: read
   pages: write
   id-token: write
+# Never cancel a publish mid-deploy: a burst of saves used to cancel each deploy in turn
+# and stall the site for minutes. Now the running publish finishes (about 20s) and only
+# the newest waiting save publishes next; older waiting ones are skipped, never lost,
+# because each save contains the whole scoreboard.
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 jobs:
   publish:
     runs-on: ubuntu-latest
