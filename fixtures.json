@@ -2,7 +2,7 @@
   "_note": "Live scores for donis.shotclubhouse.com/london-26/games/. Edit at /london-26/score/ with the scorer passcode, not by hand. Every save is validated before it publishes.",
   "date": "2026-10-03",
   "updated": null,
-  "rev": 16,
+  "rev": 17,
   "divisions": [
     {
       "id": "womens",
@@ -45,9 +45,8 @@
     }
   ],
   "stream": {
-    "url": "https://www.veo.com/en-gb/product/veo-live",
-    "on": true,
-    "label": "Stream test"
+    "url": null,
+    "on": false
   },
   "fixtures": [
     { "id": "W1", "division": "womens", "time": "12:00", "home": "WA", "away": "WB", "homeScore": null, "awayScore": null, "state": "scheduled" },
