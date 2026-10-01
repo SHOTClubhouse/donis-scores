@@ -14,7 +14,8 @@ permissions:
 # Never cancel a publish mid-deploy: a burst of saves used to cancel each deploy in turn
 # and stall the site for minutes. Now the running publish finishes (about 20s) and only
 # the newest waiting save publishes next; older waiting ones are skipped, never lost,
-# because each save contains the whole scoreboard.
+# because each save contains the whole scoreboard. If a newer save's run is skipped (GitHub
+# keeps only one waiting run), the run that does go still publishes main, so nothing is lost.
 concurrency:
   group: pages
   cancel-in-progress: false
@@ -25,7 +26,10 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      # Always publish the newest scoreboard on main, not the commit that started this run.
+      # Each save holds the whole board, so a duplicate or late run can never put old scores back.
       - uses: actions/checkout@v4
+        with: { ref: main }
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
       - name: Validate against the site's rules
