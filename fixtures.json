@@ -1,8 +1,8 @@
 {
   "_note": "Live scores for donis.shotclubhouse.com/london-26/games/. Edit at /london-26/score/ with the scorer passcode, not by hand. Every save is validated before it publishes.",
   "date": "2026-10-03",
-  "updated": "08:55",
-  "rev": 59,
+  "updated": "14:40",
+  "rev": 60,
   "divisions": [
     {
       "id": "womens",
@@ -113,7 +113,7 @@
     "nominees": []
   },
   "fixtures": [
-    { "id": "W1", "division": "womens", "time": "11:50", "home": "WA", "away": "WB", "homeScore": null, "awayScore": null, "state": "scheduled" },
+    { "id": "W1", "division": "womens", "time": "11:50", "home": "WA", "away": "WB", "homeScore": 2, "awayScore": 0, "state": "live" },
     { "id": "W2", "division": "womens", "time": "12:00", "home": "WC", "away": "WD", "homeScore": null, "awayScore": null, "state": "scheduled" },
     { "id": "W3", "division": "womens", "time": "12:10", "home": "WA", "away": "WC", "homeScore": null, "awayScore": null, "state": "scheduled" },
     { "id": "W4", "division": "womens", "time": "12:20", "home": "WB", "away": "WD", "homeScore": null, "awayScore": null, "state": "scheduled" },
