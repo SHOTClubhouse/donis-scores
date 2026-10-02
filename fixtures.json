@@ -1,8 +1,8 @@
 {
   "_note": "Live scores for donis.shotclubhouse.com/london-26/games/. Edit at /london-26/score/ with the scorer passcode, not by hand. Every save is validated before it publishes.",
   "date": "2026-10-03",
-  "updated": "14:40",
-  "rev": 62,
+  "updated": "14:41",
+  "rev": 63,
   "divisions": [
     {
       "id": "womens",
@@ -115,7 +115,7 @@
   "fixtures": [
     { "id": "W1", "division": "womens", "time": "11:50", "home": "WA", "away": "WB", "homeScore": 2, "awayScore": 0, "state": "live" },
     { "id": "W2", "division": "womens", "time": "12:00", "home": "WC", "away": "WD", "homeScore": 4, "awayScore": 0, "state": "ft" },
-    { "id": "W3", "division": "womens", "time": "12:10", "home": "WA", "away": "WC", "homeScore": 0, "awayScore": 0, "state": "ft" },
+    { "id": "W3", "division": "womens", "time": "12:10", "home": "WA", "away": "WC", "homeScore": 2, "awayScore": 0, "state": "ft" },
     { "id": "W4", "division": "womens", "time": "12:20", "home": "WB", "away": "WD", "homeScore": null, "awayScore": null, "state": "scheduled" },
     { "id": "W5", "division": "womens", "time": "12:30", "home": "WA", "away": "WD", "homeScore": null, "awayScore": null, "state": "scheduled" },
     { "id": "W6", "division": "womens", "time": "12:40", "home": "WB", "away": "WC", "homeScore": null, "awayScore": null, "state": "scheduled" },
