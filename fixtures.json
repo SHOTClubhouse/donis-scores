@@ -1,8 +1,8 @@
 {
   "_note": "Live scores for donis.shotclubhouse.com/london-26/games/. Edit at /london-26/score/ with the scorer passcode, not by hand. Every save is validated before it publishes.",
   "date": "2026-10-03",
-  "updated": "14:42",
-  "rev": 68,
+  "updated": "14:47",
+  "rev": 69,
   "divisions": [
     {
       "id": "womens",
@@ -109,28 +109,17 @@
     "on": false
   },
   "mvp": {
-    "open": true,
-    "nominees": [
-      {
-        "id": "liam-east-sheen",
-        "name": "liam",
-        "team": "East Sheen"
-      },
-      {
-        "id": "phil-donis-london",
-        "name": "phil",
-        "team": "Donis London"
-      }
-    ]
+    "open": false,
+    "nominees": []
   },
   "fixtures": [
-    { "id": "W1", "division": "womens", "time": "11:50", "home": "WA", "away": "WB", "homeScore": 2, "awayScore": 0, "state": "ft" },
-    { "id": "W2", "division": "womens", "time": "12:00", "home": "WC", "away": "WD", "homeScore": 4, "awayScore": 0, "state": "ft" },
-    { "id": "W3", "division": "womens", "time": "12:10", "home": "WA", "away": "WC", "homeScore": 2, "awayScore": 0, "state": "ft" },
-    { "id": "W4", "division": "womens", "time": "12:20", "home": "WB", "away": "WD", "homeScore": 0, "awayScore": 3, "state": "ft" },
-    { "id": "W5", "division": "womens", "time": "12:30", "home": "WA", "away": "WD", "homeScore": 2, "awayScore": 0, "state": "ft" },
-    { "id": "W6", "division": "womens", "time": "12:40", "home": "WB", "away": "WC", "homeScore": 2, "awayScore": 0, "state": "ft" },
-    { "id": "WF", "division": "womens", "stage": "Final", "time": "12:50", "home": "1st in table", "away": "2nd in table", "homeScore": 2, "awayScore": 0, "state": "ft" },
+    { "id": "W1", "division": "womens", "time": "11:50", "home": "WA", "away": "WB", "homeScore": null, "awayScore": null, "state": "scheduled" },
+    { "id": "W2", "division": "womens", "time": "12:00", "home": "WC", "away": "WD", "homeScore": null, "awayScore": null, "state": "scheduled" },
+    { "id": "W3", "division": "womens", "time": "12:10", "home": "WA", "away": "WC", "homeScore": null, "awayScore": null, "state": "scheduled" },
+    { "id": "W4", "division": "womens", "time": "12:20", "home": "WB", "away": "WD", "homeScore": null, "awayScore": null, "state": "scheduled" },
+    { "id": "W5", "division": "womens", "time": "12:30", "home": "WA", "away": "WD", "homeScore": null, "awayScore": null, "state": "scheduled" },
+    { "id": "W6", "division": "womens", "time": "12:40", "home": "WB", "away": "WC", "homeScore": null, "awayScore": null, "state": "scheduled" },
+    { "id": "WF", "division": "womens", "stage": "Final", "time": "12:50", "home": "1st in table", "away": "2nd in table", "homeScore": null, "awayScore": null, "state": "scheduled" },
     { "id": "L1", "division": "legends", "time": "19:00", "home": "Donis Claret", "away": "Donis Sky", "homeScore": null, "awayScore": null, "state": "scheduled" },
     { "id": "M01", "division": "mens", "time": "13:00", "home": "MB4", "away": "MA5", "homeScore": null, "awayScore": null, "state": "scheduled" },
     { "id": "M02", "division": "mens", "time": "13:10", "home": "MB1", "away": "MA6", "homeScore": null, "awayScore": null, "state": "scheduled" },
