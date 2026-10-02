@@ -2,7 +2,7 @@
   "_note": "Live scores for donis.shotclubhouse.com/london-26/games/. Edit at /london-26/score/ with the scorer passcode, not by hand. Every save is validated before it publishes.",
   "date": "2026-10-03",
   "updated": "16:57",
-  "rev": 84,
+  "rev": 85,
   "divisions": [
     {
       "id": "womens",
@@ -106,7 +106,7 @@
   ],
   "stream": {
     "url": "https://app.veo.co/matches/20240224-veo-demo-team-vs-opponent-team-v9417ba5/",
-    "on": false
+    "on": true
   },
   "mvp": {
     "open": true
