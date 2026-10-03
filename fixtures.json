@@ -1,8 +1,8 @@
 {
   "_note": "Live scores for donis.shotclubhouse.com/london-26/games/. Edit at /london-26/score/ with the scorer passcode, not by hand. Every save is validated before it publishes.",
   "date": "2026-10-03",
-  "updated": "16:58",
-  "rev": 360,
+  "updated": "16:59",
+  "rev": 361,
   "divisions": [
     {
       "id": "mens",
@@ -113,7 +113,7 @@
     { "id": "M22", "division": "mens", "time": "16:30", "home": "MA2", "away": "MA4", "homeScore": 10, "awayScore": 4, "state": "ft" },
     { "id": "M23", "division": "mens", "time": "16:40", "home": "MB1", "away": "MB5", "homeScore": 4, "awayScore": 10, "state": "ft" },
     { "id": "M24", "division": "mens", "time": "16:50", "home": "MA3", "away": "MB6", "homeScore": 3, "awayScore": 4, "state": "ft" },
-    { "id": "M25", "division": "mens", "time": "17:00", "home": "MA1", "away": "MB2", "homeScore": 0, "awayScore": 1, "state": "live" },
+    { "id": "M25", "division": "mens", "time": "17:00", "home": "MA1", "away": "MB2", "homeScore": 0, "awayScore": 2, "state": "live" },
     { "id": "M26", "division": "mens", "time": "17:10", "home": "MA4", "away": "MB3", "homeScore": null, "awayScore": null, "state": "scheduled" },
     { "id": "M27", "division": "mens", "time": "17:20", "home": "MA5", "away": "MB5", "homeScore": null, "awayScore": null, "state": "scheduled" },
     { "id": "M28", "division": "mens", "time": "17:30", "home": "MA6", "away": "MA3", "homeScore": null, "awayScore": null, "state": "scheduled" },
