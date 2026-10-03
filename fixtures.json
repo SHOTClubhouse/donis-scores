@@ -1,8 +1,8 @@
 {
   "_note": "Live scores for donis.shotclubhouse.com/london-26/games/. Edit at /london-26/score/ with the scorer passcode, not by hand. Every save is validated before it publishes.",
   "date": "2026-10-03",
-  "updated": "19:32",
-  "rev": 480,
+  "updated": "19:33",
+  "rev": 481,
   "divisions": [
     {
       "id": "mens",
@@ -140,7 +140,7 @@
     { "id": "MF", "division": "mens", "stage": "Final", "time": "18:20", "home": "Winner Semi-final 1", "away": "Winner Semi-final 2", "homeScore": 3, "awayScore": 4, "state": "ft" },
     { "id": "L1", "division": "legends", "time": "19:00", "home": "LG", "away": "CH", "homeScore": 4, "awayScore": 5, "state": "ft" },
     { "id": "L2", "division": "legends", "time": "19:10", "home": "MV", "away": "DN", "homeScore": 7, "awayScore": 4, "state": "ft" },
-    { "id": "L3", "division": "legends", "time": "19:20", "home": "LG", "away": "MV", "homeScore": 6, "awayScore": 1, "state": "live" },
+    { "id": "L3", "division": "legends", "time": "19:20", "home": "LG", "away": "MV", "homeScore": 7, "awayScore": 1, "state": "live" },
     { "id": "L4", "division": "legends", "time": "19:30", "home": "CH", "away": "DN", "homeScore": null, "awayScore": null, "state": "scheduled" },
     { "id": "L5", "division": "legends", "time": "19:40", "home": "LG", "away": "DN", "homeScore": null, "awayScore": null, "state": "scheduled" },
     { "id": "L6", "division": "legends", "time": "19:50", "home": "CH", "away": "MV", "homeScore": null, "awayScore": null, "state": "scheduled" }
